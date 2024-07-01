@@ -1,0 +1,319 @@
+﻿body {
+    /* background-color: rgb(191 218 255); */
+    background-color: rgb(215 231 253);
+    font-weight: 500;
+}
+
+.dark body {
+    background-color: #232e3c;
+}
+
+/* Register page button */
+.social-auth-links a:first-child {
+    margin-bottom: 20px;
+}
+
+
+body,
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1,
+.navbar-vertical.navbar-card .navbar-nav .nav-item .nav-link,
+label {
+    color: #3a3a3a;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled,
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+    color: #3a3a3a !important;
+}
+
+tr {
+    color: #3a3a3a !important;
+    font-weight: 600;
+}
+
+.cm-bg-light {
+    background-color: #f0f6ff;
+}
+
+table thead tr th {
+    background-color: rgb(208 228 255) !important;
+}
+
+label.error {
+    color: #e6455c;
+    margin-bottom: 0;
+}
+
+nav.navbar.navbar-light {
+    /* background-color: rgb(191 218 255); */
+    background-color: rgb(215 231 253);
+    border-bottom: 1px solid #aec6e8;
+}
+
+.dark body nav.navbar.navbar-light {
+    background-color: #232e3c;
+}
+
+.hover-white:hover {
+    color: #fff !important;
+}
+
+/* .breadcrumb-item+.breadcrumb-item::before {
+    float: left;
+    padding-right: 0.5rem;
+    color: #748194;
+    content: '\003E';
+} */
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.table tr td:first-child {
+    padding-left: 4px;
+}
+
+.table tr td:last-child {
+    padding-right: 4px;
+}
+
+table.dataTable tbody th,
+table.dataTable tbody td {
+    padding: 8px;
+}
+
+.table-bordered > :not(caption) > * > * {
+    border-width: 1px;
+}
+
+.table-sm > :not(caption) > * > * {
+    padding: .25rem .25rem !important;
+}
+
+.table-sm thead tr th {
+    padding: .55rem !important;
+}
+
+.custom-data-table table thead tr td:last-child {
+    display: flex;
+}
+
+.custom-data-table .table tbody tr {
+    text-align: center;
+    vertical-align: baseline;
+}
+
+@media (max-width: 991px) {
+    .custom-data-table .table tbody tr td:last-child {
+        display: flex;
+    }
+}
+
+
+.custom-data-table .table tbody tr td:last-child a {
+    margin: 0 4px;
+}
+
+.custom-data-table .dataTables_length {
+    padding: 0 14px 14px;
+    color: #5e6e82;
+}
+
+.custom-data-table .dataTables_filter {
+    padding: 0 14px 14px;
+    color: #5e6e82;
+}
+
+.custom-data-table .dataTables_info {
+    color: #3a3a3a !important;
+    font-size: 13.3333px;
+    font-weight: 500;
+    padding: 0 14px;
+}
+
+.custom-data-table .dataTables_paginate {
+    padding: 1px 14px;
+    font-size: 13.3333px !important;
+}
+
+.custom-data-table .dataTables_length select {
+    border: 1px solid rgb(128 128 128);
+    border-radius: 4px;
+    color: #5e6e82;
+}
+
+.custom-data-table .paginate_button {
+    padding: 0.1875rem 0.75rem !important;
+    font-size: 13.3333px !important;
+    border-radius: 0.2rem !important;
+}
+
+    .custom-data-table .paginate_button.current {
+        background-color: #fff !important;
+        background: #fff !important;
+        border-color: #fff !important;
+        box-shadow: 0 0 0 1px rgba(43, 45, 80, 0.1), 0 2px 5px 0 rgba(43, 45, 80, 0.08), 0 1px 1.5px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+    }
+
+input[type="search"] {
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+}
+
+.select2-container--default .select2-selection--single {
+    border: 1px solid #d8e2ef;
+}
+
+.select2-container .select2-selection--single {
+    height: 36px;
+    padding: 3px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 4px
+}
+
+input:focus-visible {
+    outline-offset: 0px;
+    outline: #96bdf2;
+    border-color: #96bdf2;
+}
+
+.js-validation-error-message label.error {
+    font-size: 11px;
+    font-weight: 400 !important;
+}
+
+span.select2-selection.select2-selection--single.error,
+input.form-control.error {
+    box-shadow: inset 0 1px 2px rgb(231 130 147 / 0%), 0 0 0 0.2rem rgb(255 0 43 / 25%);
+    border-color: rgb(255 0 43 / 25%);
+}
+
+.custom-round-icon-btn {
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 5px;
+    margin: 0;
+    height: 32px;
+    width: 32px;
+    background-color: #fff;
+    color: #5e6e82;
+}
+
+.cm-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+    .cm-tooltip .cm-tooltiptext {
+        visibility: hidden;
+        width: 200px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        margin-left: -99px;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+        .cm-tooltip .cm-tooltiptext::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #555 transparent transparent transparent;
+        }
+
+    .cm-tooltip:hover .cm-tooltiptext {
+        visibility: visible;
+        opacity: 1;
+    }
+
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child:before {
+    top: 15px;
+}
+
+.cm-spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    color: #2c7be5;
+}
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+.web-report {
+    width: 100%;
+}
+
+.web-report--block {
+    overflow: scroll;
+}
+
+
+/*for docket and printer*/
+.paper-setup {
+    border: 3px dashed #FCE165;
+    margin: auto;
+}
+
+    .paper-setup .ui-widget-content {
+        position: relative;
+        background: transparent;
+        border: none;
+    }
+
+        .paper-setup .ui-widget-content .ui-draggable-handle {
+            text-transform: uppercase;
+            padding: 2px 4px;
+            position: absolute !important;
+            display: inline-block;
+        }
+
+.paper-print {
+    margin: auto;
+}
+
+    .paper-print .ui-widget-content {
+        position: relative;
+        background: transparent;
+        border: none;
+    }
+
+        .paper-print .ui-widget-content .ui-draggable-handle {
+            text-transform: uppercase;
+            padding: 2px 4px;
+            position: absolute !important;
+            display: inline-block;
+        }
+
+.paper-frame {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/*end of docket Printer Print*/
